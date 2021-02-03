@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.container{
+    margin: 4em auto;
+    width: 30%;
+    border: 2px solid #E27D60;
+    border-radius: .5em;
+    position: relative;
+}
+
+.card-1{
+    background-color: #E27D60;
+    width: auto;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 4em 5em;
+    border-radius: .1em;
+    
+}
+
+#pic-profile{
+    border-radius: 10em;
+}
+
+.inner-card-1{
+    margin: 1em 0;
+    padding: 1em 0;
+}
+
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Roboto';
+    line-height: 1.8em;
+}
+
+.card-2 {
+    background-color: white;
+    margin: auto;
+    width: auto;
+    border-radius: .5em;
+    padding: 3em 0;
+    width: auto;
+}
+
+#button-link {
+    position: absolute;
+    top: 67%;
+    left: 37%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 3em;
+    border: 1px solid white;
+    border-radius: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: gray;
+}
+
+#button-link:hover{
+    
+    box-shadow: rgba(226, 125, 96,0.5) 0px 7px 29px 0px;
+}
+
+li{
+    display: inline-block;
+    padding: 1em;
+    
+}
+
+.fab{
+    display: inline-block;
+    color: gray;
+    font-size: 3em;
+}
+
+.fab:hover{
+    color: rgba(226, 125, 96,0.7);
+}
+
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+  
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: auto;
+      
+    }
+  }
+
+
+
+
+
